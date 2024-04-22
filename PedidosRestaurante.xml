@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pedidos SYSTEM "PedidosRestaurante.dtd">
+<?xml-stylesheet href="PedidosRestaurante.xsl" type="text/xsl"?>
 <pedidos>
     <pedido>
         <nombre>Pizza Margarita</nombre>
