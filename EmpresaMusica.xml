@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE transacciones SYSTEM "EmpresaMusica.dtd">
 <transacciones>
-
-    <!-- Declaración DTD -->
-    <![CDATA[
-        <!-- Declaración DTD -->
-        <!ELEMENT transacciones (registro+)>
-        <!ELEMENT registro (titulo, artista, genero, precio, fechaTransaccion?)>
-        <!ELEMENT titulo (#PCDATA)>
-        <!ELEMENT artista (#PCDATA)>
-        <!ELEMENT genero (#PCDATA)>
-        <!ELEMENT precio (#PCDATA)>
-        <!ELEMENT fechaTransaccion (#PCDATA)>
-    ]]>
-
     <registro>
         <titulo>Bohemian Rhpsody</titulo>
         <artista>Queen</artista>
