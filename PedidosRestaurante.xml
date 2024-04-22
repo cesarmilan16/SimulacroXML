@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedidos>
+    <pedido>
+        <nombre>Pizza Margarita</nombre>
+        <descripcion>Pizza con salsa de tomate, mozzarella y albahaca fresca</descripcion>
+        <precio>10.99</precio>
+        <cantidad>2</cantidad>
+        <fecha>2024-02-30</fecha>
+    </pedido>
+</pedidos>
