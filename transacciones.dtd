@@ -1,0 +1,8 @@
+<!-- Declaración DTD -->
+<!ELEMENT transacciones (registro+)>
+<!ELEMENT registro (titulo, artista, genero, precio, fechaTransaccion?)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT artista (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT fechaTransaccion (#PCDATA)>
