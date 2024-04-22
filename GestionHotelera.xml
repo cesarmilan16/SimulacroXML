@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reservas>
+    <reserva>
+        <nombre>Juan Perez</nombre>
+        <tipoHabitacion>Doble</tipoHabitacion>
+        <fechaEntrada>2024-05-10</fechaEntrada>
+        <fechaSalida>2024-05-15</fechaSalida>
+        <costoTotal>600.00</costoTotal>
+    </reserva>
+</reservas>
