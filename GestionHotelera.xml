@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reservas SYSTEM "GestionHotelera.dtd">
+<?xml-stylesheet href="GestionHotelera.xsl" type="text/xsl"?>
 <reservas>
     <reserva>
         <nombre>Juan Perez</nombre>
