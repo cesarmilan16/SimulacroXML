@@ -24,7 +24,7 @@
                         <td>
                             <xsl:choose>
                                 <xsl:when test="costoTotal &gt; 500.00">
-                                        <span style="font-weight: bold;"><xsl:value-of select="precio"/></span>
+                                        <span style="font-weight: bold;"><xsl:value-of select="costoTotal"/></span>
                                     </xsl:when>
                                     <xsl:otherwise>
                                         <xsl:value-of select="costoTotal"/>
