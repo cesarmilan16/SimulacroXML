@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE ventas SYSTEM "GestionLibreria.dtd">
+<?xml-stylesheet href="GestionLibreria.xsl" type="text/xsl"?>
 <ventas>
     <venta>
         <titulo>Cien años de soledad</titulo>
