@@ -1,0 +1,8 @@
+<!-- Declaración DTD -->
+<!ELEMENT pedidos (pedido+)>
+<!ELEMENT pedido (nombre, descripcion, precio, cantidad, fecha)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
