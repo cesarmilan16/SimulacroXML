@@ -1,0 +1,8 @@
+<!-- Declaración DTD -->
+<!ELEMENT reservas (reserva+)>
+<!ELEMENT reserva (nombre, tipoHabitacion, fechaEntrada, fechaSalida, costoTotal)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tipoHabitacion (#PCDATA)>
+<!ELEMENT fechaEntrada (#PCDATA)>
+<!ELEMENT fechaSalida (#PCDATA)>
+<!ELEMENT costoTotal (#PCDATA)>
