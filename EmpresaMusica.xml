@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transacciones>
+    <registro>
+        <titulo>Bohemian Rhpsody</titulo>
+        <Artita>Queen</Artita>
+        <Genero>Rock</Genero>
+        <Precio>0.99</Precio>
+        <fechaTransaccion>2024-04-15</fechaTransaccion>
+    </registro>
+</transacciones>
