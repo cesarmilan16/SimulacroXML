@@ -1,0 +1,8 @@
+<!-- Declaración DTD -->
+<!ELEMENT ventas (venta+)>
+<!ELEMENT venta (titulo, autor, genero, precio, fecha)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
