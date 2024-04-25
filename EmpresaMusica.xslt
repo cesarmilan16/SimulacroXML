@@ -20,16 +20,14 @@
                         <td><xsl:value-of select="titulo"/></td>
                         <td><xsl:value-of select="autor"/></td>
                         <td><xsl:value-of select="genero"/></td>
-                        <td>
-                            <xsl:choose>
-                                <xsl:when test="precio &lt; 1">
-                                        <span style="font-weight: bold;"><xsl:value-of select="precio"/></span>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <xsl:value-of select="precio"/>
-                                    </xsl:otherwise>
-                            </xsl:choose>
-                        </td>
+                        <xsl:choose>
+                            <xsl:when test="precio &lt; 1">
+                                    <td><b><xsl:value-of select="precio"/></b></td>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <td><xsl:value-of select="precio"/></td>
+                                </xsl:otherwise>
+                        </xsl:choose>
                         <td><xsl:value-of select="fechaTransaccion"/></td>
                     </tr>
                 </xsl:for-each>
