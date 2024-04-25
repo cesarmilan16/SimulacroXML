@@ -18,7 +18,7 @@
                 <xsl:for-each select="transacciones/registro">
                     <tr>
                         <td><xsl:value-of select="titulo"/></td>
-                        <td><xsl:value-of select="autor"/></td>
+                        <td><xsl:value-of select="artista"/></td>
                         <td><xsl:value-of select="genero"/></td>
                         <xsl:choose>
                             <xsl:when test="precio &lt; 1">
