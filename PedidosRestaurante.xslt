@@ -19,16 +19,14 @@
                     <tr>
                         <td><xsl:value-of select="nombre"/></td>
                         <td><xsl:value-of select="descripcion"/></td>
-                        <td>
                             <xsl:choose>
                                 <xsl:when test="precio * cantidad &gt; 20">
-                                        <span style="font-weight: bold;"><xsl:value-of select="precio"/></span>
+                                        <td><b><xsl:value-of select="precio"/></b></td>
                                     </xsl:when>
                                     <xsl:otherwise>
-                                        <xsl:value-of select="precio"/>
+                                        <td><xsl:value-of select="precio"/></td>
                                     </xsl:otherwise>
                             </xsl:choose>
-                        </td>
                         <td><xsl:value-of select="cantidad"/></td>
                         <td><xsl:value-of select="fecha"/></td>
                     </tr>
