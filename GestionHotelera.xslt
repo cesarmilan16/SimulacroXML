@@ -21,16 +21,14 @@
                         <td><xsl:value-of select="tipoHabitacion"/></td>
                         <td><xsl:value-of select="fechaEntrada"/></td>
                         <td><xsl:value-of select="fechaSalida"/></td>
-                        <td>
                             <xsl:choose>
                                 <xsl:when test="costoTotal &gt; 500.00">
-                                        <span style="font-weight: bold;"><xsl:value-of select="costoTotal"/></span>
+                                        <td><b><xsl:value-of select="costoTotal"/></b></td>
                                     </xsl:when>
                                     <xsl:otherwise>
-                                        <xsl:value-of select="costoTotal"/>
+                                        <td><xsl:value-of select="costoTotal"/></td>
                                     </xsl:otherwise>
                             </xsl:choose>
-                        </td>
                     </tr>
                 </xsl:for-each>
             </table>
